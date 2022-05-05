@@ -1,0 +1,37 @@
+/* CSS for the body */
+body{
+    background-color: orange;
+    color: white;
+}
+#stopWatch{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: inherit;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid white;
+    color: white;
+    margin: 2px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+@media (max-width:400px){
+    .button1{
+        display: flex;
+        flex-direction: column;                   
+    }
+    button{
+        margin-bottom: 10px;
+        
+    }
+}
